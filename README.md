@@ -1,7 +1,3 @@
-# Nuxt Minimal Starter
-
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
-
 ## Setup
 
 Make sure to install dependencies:
@@ -18,6 +14,15 @@ yarn install
 
 # bun
 bun install
+```
+
+## Environment Variables
+
+Create a file named .env in the root of the project and add the following:
+
+```
+VITE_BACKEND_URL=https://requestly.tech/api/mockv2/test/api
+VITE_USERNAME=user26614
 ```
 
 ## Development Server
@@ -71,5 +76,3 @@ yarn preview
 # bun
 bun run preview
 ```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
